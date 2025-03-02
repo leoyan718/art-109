@@ -1,31 +1,18 @@
 
-console.log("hello hello");
+document.querySelector("#image-0").addEventListener("click", function(){
+    document.querySelector("#image-2").style.visibility = "visible";
+    // document.querySelector("#image-0").style.visibility = "hidden"
+    // alert("bark bark bark");
+})
 
+document.querySelector("#image-2").addEventListener("click", function(){
+    document.querySelector("#image-3").style.visibility = "visible";
+})
 
-let pageTitle = document.querySelector("#page-title")
+document.querySelector("#image-3").addEventListener("click", function(){
+    document.querySelector("#image-4").style.visibility = "visible";
+})
 
-// Javascript Timeout changes h1 title after 3 seconds
-setTimeout(function(){
-    pageTitle.style.color = "pink" 
-    // console.log("timeout worked!")
-} ,3000)
+document.querySelector("#image-4").addEventListener("click", function(){
 
-
-//CLick event on header changes background color 
-document.querySelector("header").onclick = function() {
-    // console.log ("clicked header")
-    document.querySelector("body").style.backgroundColor = "black";
-}
-
-
-// // Javascript Timeout changes h1 title after 3 seconds
-// setTimeout(function(){
-//     document.querySelector("#page-title").style.color = "pink" 
-//     // console.log("timeout worked!")
-// } ,3000)
-
-// //CLick event on header changes background color 
-// document.querySelector("header").onclick = function() {
-//     // console.log ("clicked header")
-//     document.querySelector("body").style.backgroundColor = "black";
-// }
+})

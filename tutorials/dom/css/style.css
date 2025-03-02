@@ -24,6 +24,8 @@ html {
      font-size: 1.6rem;
     /* font-size 1.6rem is now the same as 16px */
     line-height: 1.6;
+    background-color: black;
+    color:white
  }
 
  header{
@@ -33,14 +35,40 @@ html {
  }
  
  main {
-    max-width: 800px;
-    margin: 50px auto;
+
  }
 
- p {
-    margin-top: 20px;
- }
+.image-div{
+   display: inline-block;
 
- .text-block{
-    
- }
+
+}
+
+.hidden{
+   visibility: hidden;
+}
+
+#image-0{
+   position: absolute;
+   top: 50px;
+   left: 50vw;
+}
+
+#image-1{
+   position: absolute;
+   top: 50px;
+   right: 20vw;
+}
+
+#image-2{
+   position: absolute;
+   top: 250px;
+   right: 50vw;
+}
+
+#image-3{
+   position: absolute;
+   top: 30px;
+   left: 50px;
+}
+
