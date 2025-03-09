@@ -93,3 +93,18 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+
+
+  /* PAGE 7
+------------------------------------*/
+.black-background{
+background-color: black;
+}
+
+.flicker-background{
+    background-image: url("../images/flicker1.png"); 
+    background-size: stretch;
+    background-position: center;
+    background-repeat: repeat;
+    height: 100vh;
+}
